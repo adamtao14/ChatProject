@@ -1,0 +1,12 @@
+package utils;
+
+public enum AuthenticationStatus {
+	SUCCESS,
+	FAILED,
+    PASSWORD_TOO_SHORT,
+    EMPTY_CREDENTIALS,
+    USERNAME_ALREADY_TAKEN,
+    SERVER_ERROR,
+    GENERAL_ERROR,
+    INVALID_USERNAME
+}
